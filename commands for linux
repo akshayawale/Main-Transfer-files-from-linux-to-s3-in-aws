@@ -1,0 +1,8 @@
+Commands for linux
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o
+"awscliv2.zip"
+unzip awscliv2.zip 
+sudo ./aws/install
+Aws configure			  
+“aws s3 cp backup.sql s3://myawsbucket1-23/backup.sql”
